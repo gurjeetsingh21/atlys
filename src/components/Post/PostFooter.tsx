@@ -14,7 +14,7 @@ const PostFooter = ({
         {commentCnt && (
           <div className="flex items-center gap-2 text-[14px]">
             <span>
-              <img src={ChatBubble} />
+              <img src={ChatBubble} alt="image" />
             </span>{" "}
             {commentCnt} comments
           </div>

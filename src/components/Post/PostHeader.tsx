@@ -10,7 +10,7 @@ const PostHeader = ({
   return (
     <div className="flex justify-between items-center">
       <div className="flex gap-3">
-        {image && <img className="w-[52px]" src={image} />}
+        {image && <img className="w-[52px]" src={image} alt="image" />}
         <div className="flex flex-col text-start">
           <div className="text-[17px] text-[#C5C7CA] font-[500]">
             {postedBy || "Create Post"}

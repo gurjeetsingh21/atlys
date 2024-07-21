@@ -47,7 +47,7 @@ export const loginFormConfig = [
       </div>
     ),
     placeholder: "Enter your password",
-    endEndorement: <img src={Eye} />,
+    endEndorement: <img src={Eye} alt="image" />,
   },
 ];
 
@@ -69,6 +69,6 @@ export const signupFormConfig = [
     type: "text",
     label: "Password",
     placeholder: "Choose a strong password",
-    endEndorement: <img src={Eye} />,
+    endEndorement: <img src={Eye} alt="image" />,
   },
 ];
